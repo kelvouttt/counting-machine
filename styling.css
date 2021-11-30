@@ -17,6 +17,13 @@ body {
   width: 300px;
 }
 
+.screen-container {
+  display: flex;
+  grid-column: 1/ -1;;
+  justify-content: end;
+  align-items: flex-end;
+}
+
 button:hover{
   opacity: 1;
   background-color: coral;
@@ -26,11 +33,6 @@ button:hover{
   background-color: #bada55;
   grid-column: span 2;
   border: 1px solid grey;
-}
-
-
-.display-screen {
-  grid-column: 1/ -1;
 }
 
 /* .one {
