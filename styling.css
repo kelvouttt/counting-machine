@@ -32,7 +32,7 @@ button:hover{
 .clear{
   background-color: #bada55;
   grid-column: span 2;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* .one {
