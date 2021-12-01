@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Montserrat:wght@200&family=Orbitron&display=swap');
+
+*{
+  font-family: 'M PLUS 1 Code', sans-serif;;
+}
+
 html,
 body {
   height: 100vh;
@@ -12,9 +18,14 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
+  overflow: hidden;
   height: 475px;
   width: 300px;
+}
+
+.display-screen {
+  padding: 8px;
 }
 
 .screen-container {
@@ -25,14 +36,17 @@ body {
 }
 
 button:hover{
-  opacity: 1;
-  background-color: coral;
+  /* opacity: 1; */
+  background-color: #3ef0b5;
+}
+
+button:active{
+  background-color: seagreen;
 }
 
 .clear{
-  background-color: #bada55;
+  background-color: coral;
   grid-column: span 2;
-  /* border: 1px solid grey; */
 }
 
 /* .one {
@@ -66,11 +80,16 @@ button:hover{
 
 .equal {
   grid-column: span 2;
+  background-color: #d3e831;
 }
 
-.operator {
-  background-color: #fca503;
-  border-radius: 2px;
+.operator,
+.number,
+.clear {
+  /* background-color: #fca503; */
+  /* border-radius: 2px; */
+  border: none;
 }
+
 
 
